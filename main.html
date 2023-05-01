@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Load</title>
+    <script>
+      window.onload = function() {
+        var ua = navigator.userAgent;
+        if (/Chrome/.test(ua) || /Safari/.test(ua)) {
+          window.open("https://valhallafighting.tv/#/", "_blank");
+        } else {
+          window.open("https://valhallafighting.tv/#/", "_blank", "menubar=yes,location=yes,resizable=yes,scrollbars=yes,status=yes");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <p>Loading...</p>
+  </body>
+</html>
